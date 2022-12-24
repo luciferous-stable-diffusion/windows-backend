@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "windows-backend"
+version = "0.1.0"
+description = ""
+authors = ["sinofseven <em.s.00001@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+diffusers = "0.8.0"
+transformers = "^4.25.1"
+scipy = "^1.9.3"
+ftfy = "^6.1.1"
+boto3-stubs = {version = "1.26.32", extras = ["dynamodb", "s3", "sqs"]}
+boto3 = "1.26.32"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.12.0"
+isort = "^5.11.3"
+ipython = "^8.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
