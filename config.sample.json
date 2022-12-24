@@ -1,0 +1,8 @@
+{
+  "table_pipe": "",
+  "table_command": "",
+  "table_kv": "",
+  "s3_bucket": "",
+  "s3_prefix": "",
+  "sqs_url": ""
+}
